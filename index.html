@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment </title>
+</head>
+<body>
+    <h1> What is HTML?</h1>
+    <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.</p>
+    <h2>HTML elements with appropriate example</h2>
+    <ol>
+        <li><h2>Table</h2></li>
+        <p> The table  tag defines an HTML table.
+
+            Each table row is defined with a tr tag. Each table header is defined with a th tag. Each table data/cell is defined with a td tag.
+            
+            By default, the text in th elements are bold and centered.
+            
+            By default, the text in td elements are regular and left-aligned.</p>
+        <table tyle="width:100%", border=5>
+            <tr>
+                <th>Language</th>
+                <th>Indroduced In</th>
+                <th>Indroduced By</th>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>1991</td>
+                <td>Sun Microsystems</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>1991</td>
+                <td>Guido van Rossum</td>
+            </tr>
+            <tr>
+                <td>C Language</td>
+                <td>1972</td>
+                <td>Dennis Ritchie and Brian Kernighan</td>
+            </tr>
+        </table>
+        <li><b> <h2>ol & ul Elements</h2>  </b> </li>
+        <p>The ol element is used when the list is ordered and the ul element is used when the list is unordered</p>
+        <p><b><h3>Unordered HTML List(ul)</h3> </b> </p>
+        <p>An unordered list starts with the ul tag. Each list item starts with the li tag.
+
+            The list items will be marked with bullets (small black circles) by default:</p>
+            <P><b>Example of unordered List:</b></P>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+                <li>Element 5</li>
+            </ul>
+            <p><b><h3>Ordered HTML List(ol)</h3> </b> </p>
+        <p>An ordered list starts with the ol tag. Each list item starts with the li tag.
+
+            The list items will be marked with numbers by default:</p>
+            <P><b>Example of ordered List:</b></P>
+            <ol>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+                <li>Element 4</li>
+                <li>Element 5</li>
+            </ol>
+            <li><h2>Form, Input, Lable Elements </h2></li>
+            <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing. The form element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc</p>
+            <p>The input element can be displayed in several ways, depending on the type attribute.</p>
+            <p>The label element defines a label for several form elements.
+
+                The label element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.</p>
+                <P><b>Example :</b></P>
+                <h2>The input Element</h2>
+
+                    <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <input type="submit" value="Submit">
+                    </form>
+                    <li><h2>Self ending tags</h2></li> 
+                    <p>Self ending tags are the tags which doesnot have "/" back slash , these tags ends with themsleves like "img" tag break tag "br" etc..</p>            
+    </ol>
+    <h2>Explain HTML quotes and following terms</h2>
+    <ol>
+        <p> Quotes are nothing quotations which gives some styling to the qotes,
+            the tags which are gives some styling that are 1.q 2.blackquote and 3.cite.</p>
+           <ol>
+               <li> & lt </li>
+               <p>If you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.
+
+                Character entities are used to display reserved characters in HTML. To display a less than sign (<) we must write: &lt</p>
+                <li>& gt</li>
+                <p>greater than</p>
+                <li>& gte</li>
+                <p>greater than or equal</p>
+                <li>& lte</li>
+                <p>lessthan or equal</p>
+                <li> &ldquo </li>
+                <p>LEFT DOUBLE QUOTATION MARK</p>
+                <li>&ldquo</li>
+                <p>RIGHT DOUBLE QUOTATION MARK</p>
+
+           </ol>
+                
+    </ol>
+    <h2>Video Tag</h2>
+    <p>The video tag is used to embed video content in a document, such as a movie clip or other video streams.
+
+        The video tag contains one or more source tags with different video sources. The browser will choose the first source it supports.controls is a attribute in video tag which controls over the video which are audio
+        and forword and backword of the video ,
+         poster is also a attribute which acts like thumbnail of video..
+         src- src shows the path of video where present it is nothing gives path to the source to video</p>
+         <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+          </video>
+          <h2>What do you mean by HTML Attributes?</h2>
+          <p>HTML attributes provide additional information about HTML elements.</p>
+          <ul>
+              <li>All HTML elements can have attributes</li>
+              <li>Attributes provide additional information about elements</li>
+              <li>Attributes are always specified in the start tag</li>
+          </ul>
+</body>
+</html>
